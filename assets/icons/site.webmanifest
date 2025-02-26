@@ -17,14 +17,14 @@
   ],
   "screenshots": [
     {
-      "src": "https://horoserp.github.io/huddle-landing-page/assets/images/desktop-screenshot.jpeg",
+      "src": "https://horoserp.github.io/huddle-landing-page/assets/images/desktop-design.jpg",
       "sizes": "1440x800",
       "type": "image/png",
       "form_factor": "wide",
       "label": "Huddle Landing Page Desktop"
     },
     {
-      "src": "https://horoserp.github.io/huddle-landing-page/assets/images/mobile-screenshot.jpeg",
+      "src": "https://horoserp.github.io/huddle-landing-page/assets/images/mobile-design.jpg",
         "sizes": "750x1600",
         "type": "image/png",
         "form_factor": "narrow",
