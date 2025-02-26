@@ -1,0 +1,58 @@
+/* Universal Selector to remove default browser settings */
+* {
+  padding: 0rem;
+  margin: 0rem;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Headings-400";
+  src: url(./assets/fonts/Poppins-Black.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Headings-600";
+  src: url(./assets/fonts/Poppins-SemiBold.ttf);
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Body";
+  src: url(./assets/fonts/OpenSans-VariableFont_wdth\wght.ttf);
+  font-weight: 400;
+}
+
+/* CSS Variables */
+:root {
+  --Violet: hsl(257, 40%, 49%);
+  --Soft-Magenta: hsl(300, 69%, 71%);
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  font-family: "Body";
+}
+
+/* Extra small devices [iPhone SE - 375](phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+}
+
+/* Medium devices [iPad Mini] (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
