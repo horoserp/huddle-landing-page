@@ -1,15 +1,15 @@
 {
-  "name": "Single Price Grid | FEM",
-  "short_name": "Single Price Grid",
+  "name": "Huddle Landing Page | FEM",
+  "short_name": "Huddle Landing Page",
   "icons": [
     {
-      "src": "https://horoserp.github.io/single-price-grid/assets/icons/web-app-manifest-192x192.png",
+      "src": "https://horoserp.github.io/huddle-landing-page/assets/icons/web-app-manifest-192x192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "https://horoserp.github.io/single-price-grid/assets/icons/web-app-manifest-512x512.png",
+      "src": "https://horoserp.github.io/huddle-landing-page/assets/icons/web-app-manifest-512x512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
@@ -17,24 +17,24 @@
   ],
   "screenshots": [
     {
-      "src": "https://horoserp.github.io/single-price-grid/assets/images/desktop-screenshot.jpeg",
+      "src": "https://horoserp.github.io/huddle-landing-page/assets/images/desktop-screenshot.jpeg",
       "sizes": "1440x800",
       "type": "image/png",
       "form_factor": "wide",
-      "label": "Single Price Grid Desktop"
+      "label": "Huddle Landing Page Desktop"
     },
     {
-      "src": "https://horoserp.github.io/single-price-grid/assets/images/mobile-screenshot.jpeg",
-        "sizes": "415x950",
+      "src": "https://horoserp.github.io/huddle-landing-page/assets/images/mobile-screenshot.jpeg",
+        "sizes": "750x1600",
         "type": "image/png",
         "form_factor": "narrow",
-        "label": "Single Price Grid Mobile"
+        "label": "Huddle Landing Page Mobile"
       }
     ],
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
   "display": "standalone",
-  "description": "A 3-section grid to display pricing for joining a community.",
+  "description": "Huddle Landing Page.",
   "start_url": ".",
   "id": "/assets/icons/",
   "orientation": "any"
