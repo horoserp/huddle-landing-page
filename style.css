@@ -6,13 +6,13 @@
 }
 
 @font-face {
-  font-family: "Headings-400";
-  src: url(./assets/fonts/Poppins-Black.ttf);
+  font-family: "Heading-400";
+  src: url(./assets/fonts/Poppins-Regular.ttf);
   font-weight: 400;
 }
 
 @font-face {
-  font-family: "Headings-600";
+  font-family: "Heading-600";
   src: url(./assets/fonts/Poppins-SemiBold.ttf);
   font-weight: 600;
 }
