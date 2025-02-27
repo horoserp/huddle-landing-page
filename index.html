@@ -54,12 +54,56 @@
 
   <body>
     <header>
-      <img src="./assets/images/logo.svg" alt="Huddle logo" />
+      <a href="#">
+        <img
+          class="logo"
+          src="./assets/images/logo.svg"
+          width="264"
+          height="65"
+          alt="Huddle logo"
+        />
+      </a>
     </header>
     <main>
-      <!-- <i class="fa fa-facebook-f resize"></i>
-      <i class="fa fa-twitter"></i>
-      <i class="fa fa-instagram"></i> -->
+      <!-- This image is purely decorative, so I hid it from screen readers. Also, as it is
+       hidden, I do not provide alternate text. -->
+      <img
+        class="illustration"
+        src="./assets/images/illustration-mockups.svg"
+        width="709"
+        height="506"
+        aria-hidden="true"
+        alt=""
+      />
+      <article>
+        <h1>Build The Community Your Fans Will Love</h1>
+        <p>
+          Huddle re-imagines the way we build communities. You have a voice, but
+          so does your audience. Create connections with your users as you
+          engage in genuine discussion.
+        </p>
+        <a class="button" href="#">Register</a>
+      </article>
     </main>
+    <footer>
+      <ul class="social-links">
+        <!-- Aria labels are included as the i tag does not support alt text. -->
+        <li>
+          <a href="#" aria-label="Huddle's Facebook page">
+            <i class="fa fa-facebook-f"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#" aria-label="Huddle's Twitter page">
+            <i class="fa fa-twitter"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#" aria-label="Huddle's Instagram page">
+            <i class="fa fa-instagram"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
   </body>
 </html>
