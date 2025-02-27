@@ -88,14 +88,6 @@ li {
   border-radius: 50%;
 }
 
-/* .fa {
-  font-size: 1.75rem;
-  color: white;
-  padding: 1rem;
-  border: 1px solid white;
-  border-radius: 50%;
-} */
-
 /* Extra small devices [iPhone SE - 375](phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 }
