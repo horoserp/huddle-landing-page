@@ -35,6 +35,8 @@ html {
 
 body {
   font-family: "Body";
+  background-image: url(./assets/images/bg-desktop.svg);
+  background-color: var(--Violet);
 }
 
 /* Extra small devices [iPhone SE - 375](phones, 600px and down) */
