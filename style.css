@@ -37,7 +37,64 @@ body {
   font-family: "Body";
   background-image: url(./assets/images/bg-desktop.svg);
   background-color: var(--Violet);
+  padding: 4rem;
 }
+
+main {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+:where(article h1, article p) {
+  color: white;
+}
+
+article p {
+  margin-bottom: 2rem;
+}
+
+.button {
+  background-color: white;
+  color: var(--Violet);
+  padding: 1rem 3rem;
+  border-radius: 2rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.social-links {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+li {
+  list-style-type: none;
+}
+
+.social-links a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2rem;
+  height: 2rem;
+  padding: 1.5rem;
+  color: white;
+  font-size: 1.75rem;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+/* .fa {
+  font-size: 1.75rem;
+  color: white;
+  padding: 1rem;
+  border: 1px solid white;
+  border-radius: 50%;
+} */
 
 /* Extra small devices [iPhone SE - 375](phones, 600px and down) */
 @media only screen and (max-width: 600px) {
