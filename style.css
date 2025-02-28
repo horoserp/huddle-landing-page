@@ -27,6 +27,9 @@
 :root {
   --Violet: hsl(257, 40%, 49%);
   --Soft-Magenta: hsl(300, 69%, 71%);
+
+  /* Added a color for hover */
+  --Amethyst: hsl(279, 50%, 60%);
 }
 
 html {
@@ -102,6 +105,28 @@ li {
   font-size: 1.75rem;
   border: 1px solid white;
   border-radius: 50%;
+}
+
+@media (hover: hover) {
+  .button:hover {
+    background-color: var(--Amethyst);
+    color: white;
+  }
+
+  .social-links a:hover {
+    color: var(--Amethyst);
+    border-color: var(--Amethyst);
+  }
+}
+
+.button:active {
+  background-color: var(--Soft-Magenta);
+  color: white;
+}
+
+.social-links a:active {
+  color: var(--Soft-Magenta);
+  border-color: var(--Soft-Magenta);
 }
 
 /* Extra small devices [iPhone SE - 375](phones, 600px and down) */
